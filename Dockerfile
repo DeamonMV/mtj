@@ -1,3 +1,3 @@
 FROM alpine:3.17
-COPY binary/main .
+COPY main .
 CMD ["main"]
