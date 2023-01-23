@@ -14,4 +14,3 @@ RUN apk add --no-cache libc6-compat su-exec bash gettext \
 
 ENTRYPOINT ["./docker-entrypoint.sh"]
 CMD ["./main"]
->>>>>>> 4465a16 (update dockerfile, add entrypoint)
