@@ -10,7 +10,7 @@ RUN apk add --no-cache libc6-compat su-exec bash gettext \
     --gecos "" \
     --home "/var/www/go" \
     --no-create-home \
-    --uid "1001" "www-data"
+    --uid "1001" "goapp"
 
 ENTRYPOINT ["./docker-entrypoint.sh"]
 CMD ["./main"]

@@ -2,4 +2,4 @@
 
 set -xe
 
-su-exec www-data $@
+su-exec goapp $@
